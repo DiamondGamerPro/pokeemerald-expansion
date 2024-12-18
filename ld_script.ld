@@ -703,6 +703,7 @@ SECTIONS {
         data/mystery_gift.o(.rodata);
         src/m4a_tables.o(.rodata);
         data/sound_data.o(.rodata);
+        src/ui_main_menu.o(.rodata);
         src/ui_startmenu_full.o(.rodata);
     } > ROM =0
 
